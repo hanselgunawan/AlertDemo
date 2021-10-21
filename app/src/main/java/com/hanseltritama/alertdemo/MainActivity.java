@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
                 .setTitle("Are you sure?")
                 .setMessage("Do you definitely want to do this?")
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    @RequiresApi(api = Build.VERSION_CODES.R)
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Intent intent =
